@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding-top: 800px;
+    text-align: center;
 }
 #profile{
     width: 250px;
@@ -69,4 +70,13 @@ z-index: 10;
 }
 .links:hover {
     background-color: darkslategray;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: darkgray;
 }
